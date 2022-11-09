@@ -1,23 +1,24 @@
-# PyBer_Analysis
 
-## Delivrable 1
+# Overview 
+The purpose of this project is to perform exploratory analysis of Pyber ride sharing data in order to gain an understanding of ridership and fare metrics by the types of cities in which Pyber operates.
+By creating visualizations and analysis, we going to help Pyber to have a better understanding of his business and determine affordability for underserved neighborhoods
 
-In the firt step of our activity is to check if we've imported the dataset correctly and if the new colunm " school_budget" is displaying.
+# Results 
+Through analysis and aggregation of PyBers ride sharing data, I have created a statistical overview and summary. 
 
-## Delivrable 2
+![pyber_frame](https://github.com/DonnieData/PyBer_Analysis/blob/main/analysis/pyber_summary_frame.png)
 
-in this section, we started by cleaning the dataset, checking the property of each colums and replace the string value by numerical.
+By reviewing the summary we can see that there are several key findings including: 
+- Urban cities have the highest ridership demand while rural cities have the least.
+- Urban cities have 4x+ more drivers than suburban cities.
+- Suburban cities have 6x + drivers than rural with almost 4.5x the revenue.
+- Rural cities have the highest average fare per ride and driver. 
+- The summary data shows a relationship in which fare revenue is higher by city type when there is a larger ratio of drivers to rides. 
 
-## Delivrable 3
+# Summary
 
-After cleaning, we had to analyse our dataset by displaying the summaty statistic, showing the mean of the math score and the minimum value of the reading score for all the students
-
-## Delivrable 4
-
-In this step, the formula allow us to sort the dataset to take out information about grade, to make a comparaison between reading score and math score
-
-## Delivrable 5
-
-The analysis of this section allow us to get the average budget for each school type, the total number of students per school and the average math scores for each combination of grade and school type.
-
-For a better analyse we could display the school with the best result in math score and reading score by grade
+Based on the analysis my business recommendations to Pyber are: 
+- Increasing the amount of drivers in Rural areas to ensure there are enough drivers to meet ride demand. 
+- Data for rural cities shows that the average fare per ride and average fare per driver is much higher than Suburban and urban cities.
+- This can indicate that rural area based riders are taking trips over a longer distance. 
+- This can result in a majority of drivers being occupied with current trips and loss in potential revenue when there are peaks in business. 
